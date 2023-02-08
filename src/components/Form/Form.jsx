@@ -1,7 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import React from "react";
 import Input from "../Input/Input";
-// import { addStudent } from
 import { addStudent } from "../../api";
 
 const Form = () => {

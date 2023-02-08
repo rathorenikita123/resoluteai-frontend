@@ -18,12 +18,10 @@ const DateTime = ({ ...props }) => {
     "Dec",
   ];
 
-
-
   const date = `${current.getDate()} ${
     months[current.getMonth()]
   } ${current.getFullYear()}`;
-  
+
   const time = `${current.getHours()}:${current.getMinutes()}`;
 
   return (
@@ -33,7 +31,6 @@ const DateTime = ({ ...props }) => {
           <p className="font-semibold text-base font-IBM">{props.heading}</p>
         </div>
         <div className="flex items-center">
-
           <p className="font-normal text-sm font-IBM px-4">{date}</p>
           <p className="font-normal text-sm font-IBM">{time}</p>
         </div>

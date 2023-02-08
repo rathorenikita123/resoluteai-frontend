@@ -11,44 +11,6 @@ const Table = () => {
           <th>View / Edit / Delete</th>
         </tr>
       </div>
-      {/* <div className="flex flex-col">
-        <div className="flex items-center justify-around w-[1000px] h-[48px]">
-          <tr className="contents font-semibold font-IBM text-sm">
-            <td>Anom</td>
-            <td>19</td>
-            <td>Male</td>
-            <td>jr</td>
-          </tr>
-        </div>
-        <div>
-          <tr>
-            <td>Anom</td>
-            <td>19</td>
-            <td>Male</td>
-          </tr>
-        </div>
-        <div>
-          <tr>
-            <td>Anom</td>
-            <td>19</td>
-            <td>Male</td>
-          </tr>
-        </div>
-        <div>
-          <tr>
-            <td>Anom</td>
-            <td>19</td>
-            <td>Male</td>
-          </tr>
-        </div>
-        <div>
-          <tr>
-            <td>Anom</td>
-            <td>19</td>
-            <td>Male</td>
-          </tr>
-        </div>
-      </div> */}
     </table>
   );
 };
